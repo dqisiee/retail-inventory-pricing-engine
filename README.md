@@ -1,12 +1,12 @@
 # Retail Inventory & Pricing Audit Engine
 
-An automated Python data validation and audit pipeline designed to sanitize retail stock records, detect cross-branch pricing inconsistencies, evaluate stock velocity, and execute dynamic promotional markdowns.
+An automated Python data validation and audit pipeline designed to sanitise retail stock records, detect cross-branch pricing inconsistencies, evaluate stock velocity, and execute dynamic promotional markdowns.
 
 ---
 
 ## Key Features
 
-- **Data Ingestion & Validation:** Sanitizes raw, unvalidated inventory records against strict domain constraints (non-empty naming, valid catalog departments, non-negative quantities, cash-rounding compatibility).
+- **Data Ingestion & Validation:** Sanitises raw, unvalidated inventory records against strict domain constraints (non-empty naming, valid catalog departments, non-negative quantities, cash-rounding compatibility).
 - **Stocktake Health Profiling:** Automatically tags items exceeding or falling below inventory thresholds (`LS` for Low Stock, `SS` for Selling Slow, `HS` for High Stock).
 - **Multi-Branch Pricing Anomaly Detection:** Identifies SKU-level pricing divergences across regional store locations to protect retail margins.
 - **Dynamic Markdown Engine:** Applies tiered category discounting matrices, models promotional price elasticity, and calculates projected sales with cash-rounding logic.
